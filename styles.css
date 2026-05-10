@@ -111,7 +111,7 @@ nav {
   height: 205px;
   margin: 0 auto 18px;
   object-fit: cover;
-  object-position: 62% 56%;
+  object-position: center;
   border-radius: 50%;
   border: 1px solid var(--line);
 }

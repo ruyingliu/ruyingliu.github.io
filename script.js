@@ -15,9 +15,9 @@ const translations = {
     aboutBodyOne:
       "I am a researcher and developer interested in building reliable, human-centered systems. My work focuses on AI-assisted workflows, developer tools, data-rich applications, and practical interfaces that make complex systems easier to understand.",
     aboutBodyTwo:
-      "This page is intentionally compact, CV-like, and easy to maintain on GitHub Pages. Replace the placeholders with your biography, research interests, recent news, and selected work.",
+      "This page is intentionally compact, CV-like, and easy to maintain as a personal website. Replace the placeholders with your biography, research interests, recent news, and selected work.",
     newsTitle: "News",
-    newsOne: "Launched this personal GitHub Pages profile.",
+    newsOne: "Launched this personal academic profile.",
     newsTwo: "Started a new project on AI-assisted software workflows.",
     newsThree: "Shared notes on building maintainable internal tools.",
     projectsTitle: "Projects",
@@ -49,13 +49,13 @@ const translations = {
     linkNotes: "Notes",
     linkPaper: "Paper",
     linkProject: "Project",
-    builtWith: "Built with GitHub Pages",
+    builtWith: "Personal academic profile",
     toggleLabel: "中文",
     documentTitle: "Ruying Liu",
   },
   zh: {
-    siteTitle: "刘如莹",
-    name: "刘如莹",
+    siteTitle: "刘汝盈",
+    name: "刘汝盈",
     navHome: "首页",
     navProjects: "项目",
     navPublications: "论文",
@@ -69,9 +69,9 @@ const translations = {
     aboutBodyOne:
       "我是一名关注可靠、人本系统的研究者与开发者。我的工作兴趣包括 AI 辅助工作流、开发者工具、数据密集型应用，以及帮助人们理解复杂系统的实用界面。",
     aboutBodyTwo:
-      "这个页面保持紧凑、清晰，接近学术个人主页和简历的风格，也便于在 GitHub Pages 上维护。你可以把这里的占位文字替换成个人简介、研究兴趣、近期动态和代表性工作。",
+      "这个页面保持紧凑、清晰，接近学术个人主页和简历的风格，也便于作为个人网站维护。你可以把这里的占位文字替换成个人简介、研究兴趣、近期动态和代表性工作。",
     newsTitle: "动态",
-    newsOne: "上线了这个个人 GitHub Pages 主页。",
+    newsOne: "上线了这个个人学术主页。",
     newsTwo: "开始了一个关于 AI 辅助软件工作流的新项目。",
     newsThree: "整理并分享了关于可维护内部工具的笔记。",
     projectsTitle: "项目",
@@ -83,9 +83,9 @@ const translations = {
       "第二个代表性工作条目。保持简短具体，让页面更像精选主页，而不是冗长的履历。",
     publicationsTitle: "论文",
     publicationOne:
-      "<strong>关于实用系统的论文标题。</strong> 刘如莹，合作者姓名。会议或期刊，2026。",
+      "<strong>关于实用系统的论文标题。</strong> 刘汝盈，合作者姓名。会议或期刊，2026。",
     publicationTwo:
-      "<strong>另一个研究项目或技术报告。</strong> 刘如莹。研讨会或预印本，2025。",
+      "<strong>另一个研究项目或技术报告。</strong> 刘汝盈。研讨会或预印本，2025。",
     awardsTitle: "荣誉",
     awardOne: "代表性奖项、奖学金、资助或竞赛结果。",
     awardTwo: "另一项认可、荣誉或奖学金。",
@@ -103,9 +103,9 @@ const translations = {
     linkNotes: "笔记",
     linkPaper: "论文",
     linkProject: "项目",
-    builtWith: "由 GitHub Pages 构建",
+    builtWith: "个人学术主页",
     toggleLabel: "English",
-    documentTitle: "刘如莹",
+    documentTitle: "刘汝盈",
   },
 };
 
