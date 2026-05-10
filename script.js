@@ -1,1 +1,146 @@
-document.querySelector("#year").textContent = new Date().getFullYear();
+const translations = {
+  en: {
+    siteTitle: "Ruying Liu",
+    name: "Ruying Liu",
+    navHome: "Home",
+    navProjects: "Projects",
+    navPublications: "Publications",
+    navAwards: "Awards",
+    navExperience: "Experience",
+    role: "Researcher / Software Engineer",
+    affiliation: "Your University or Company",
+    linkEmail: "Email",
+    linkCv: "CV",
+    aboutTitle: "About",
+    aboutBodyOne:
+      "I am a researcher and developer interested in building reliable, human-centered systems. My work focuses on AI-assisted workflows, developer tools, data-rich applications, and practical interfaces that make complex systems easier to understand.",
+    aboutBodyTwo:
+      "This page is intentionally compact, CV-like, and easy to maintain on GitHub Pages. Replace the placeholders with your biography, research interests, recent news, and selected work.",
+    newsTitle: "News",
+    newsOne: "Launched this personal GitHub Pages profile.",
+    newsTwo: "Started a new project on AI-assisted software workflows.",
+    newsThree: "Shared notes on building maintainable internal tools.",
+    projectsTitle: "Projects",
+    projectOneTitle: "Project One",
+    projectOneBody:
+      "A concise description of a project, demo, or research prototype. Mention the problem, your contribution, and the stack or method.",
+    projectTwoTitle: "Project Two",
+    projectTwoBody:
+      "A second selected work entry. Keep it short and concrete so the page reads like a curated profile rather than a long resume.",
+    publicationsTitle: "Publications",
+    publicationOne:
+      "<strong>Paper Title About Useful Systems.</strong> Ruying Liu, Collaborator Name. Conference or Journal, 2026.",
+    publicationTwo:
+      "<strong>Another Research Project or Technical Report.</strong> Ruying Liu. Workshop or Preprint, 2025.",
+    awardsTitle: "Awards",
+    awardOne: "Selected award, fellowship, grant, or competition result.",
+    awardTwo: "Another recognition or scholarship.",
+    experienceTitle: "Experience",
+    experienceOneTitle: "Role Title, Organization",
+    experienceOneBody: "One sentence about your focus, team, or contribution.",
+    experienceTwoTitle: "Previous Role, Organization",
+    experienceTwoBody: "Briefly summarize the most relevant work.",
+    educationTitle: "Education",
+    educationYear: "Year",
+    educationOneTitle: "Degree or Program, Institution",
+    educationOneBody: "Advisor, thesis, honors, or concentration.",
+    linkCode: "Code",
+    linkDemo: "Demo",
+    linkNotes: "Notes",
+    linkPaper: "Paper",
+    linkProject: "Project",
+    builtWith: "Built with GitHub Pages",
+    toggleLabel: "中文",
+    documentTitle: "Ruying Liu",
+  },
+  zh: {
+    siteTitle: "刘如莹",
+    name: "刘如莹",
+    navHome: "首页",
+    navProjects: "项目",
+    navPublications: "论文",
+    navAwards: "荣誉",
+    navExperience: "经历",
+    role: "研究者 / 软件工程师",
+    affiliation: "你的大学或公司",
+    linkEmail: "邮箱",
+    linkCv: "简历",
+    aboutTitle: "关于我",
+    aboutBodyOne:
+      "我是一名关注可靠、人本系统的研究者与开发者。我的工作兴趣包括 AI 辅助工作流、开发者工具、数据密集型应用，以及帮助人们理解复杂系统的实用界面。",
+    aboutBodyTwo:
+      "这个页面保持紧凑、清晰，接近学术个人主页和简历的风格，也便于在 GitHub Pages 上维护。你可以把这里的占位文字替换成个人简介、研究兴趣、近期动态和代表性工作。",
+    newsTitle: "动态",
+    newsOne: "上线了这个个人 GitHub Pages 主页。",
+    newsTwo: "开始了一个关于 AI 辅助软件工作流的新项目。",
+    newsThree: "整理并分享了关于可维护内部工具的笔记。",
+    projectsTitle: "项目",
+    projectOneTitle: "项目一",
+    projectOneBody:
+      "用简洁的文字介绍一个项目、演示或研究原型。可以说明问题背景、你的贡献，以及使用的技术栈或方法。",
+    projectTwoTitle: "项目二",
+    projectTwoBody:
+      "第二个代表性工作条目。保持简短具体，让页面更像精选主页，而不是冗长的履历。",
+    publicationsTitle: "论文",
+    publicationOne:
+      "<strong>关于实用系统的论文标题。</strong> 刘如莹，合作者姓名。会议或期刊，2026。",
+    publicationTwo:
+      "<strong>另一个研究项目或技术报告。</strong> 刘如莹。研讨会或预印本，2025。",
+    awardsTitle: "荣誉",
+    awardOne: "代表性奖项、奖学金、资助或竞赛结果。",
+    awardTwo: "另一项认可、荣誉或奖学金。",
+    experienceTitle: "经历",
+    experienceOneTitle: "职位名称，组织机构",
+    experienceOneBody: "用一句话概括你的方向、团队或贡献。",
+    experienceTwoTitle: "过往职位，组织机构",
+    experienceTwoBody: "简要总结最相关的工作内容。",
+    educationTitle: "教育背景",
+    educationYear: "年份",
+    educationOneTitle: "学位或项目，学校",
+    educationOneBody: "导师、论文、荣誉或研究方向。",
+    linkCode: "代码",
+    linkDemo: "演示",
+    linkNotes: "笔记",
+    linkPaper: "论文",
+    linkProject: "项目",
+    builtWith: "由 GitHub Pages 构建",
+    toggleLabel: "English",
+    documentTitle: "刘如莹",
+  },
+};
+
+const languageToggle = document.querySelector(".language-toggle");
+const languageLabel = document.querySelector("[data-lang-label]");
+const year = document.querySelector("#year");
+const savedLanguage = localStorage.getItem("preferredLanguage");
+const initialLanguage = savedLanguage || "en";
+
+function setLanguage(language) {
+  const dictionary = translations[language] || translations.en;
+
+  document.documentElement.lang = language === "zh" ? "zh-CN" : "en";
+  document.title = dictionary.documentTitle;
+
+  document.querySelectorAll("[data-i18n]").forEach((element) => {
+    const key = element.dataset.i18n;
+    element.textContent = dictionary[key] || translations.en[key] || "";
+  });
+
+  document.querySelectorAll("[data-i18n-html]").forEach((element) => {
+    const key = element.dataset.i18nHtml;
+    element.innerHTML = dictionary[key] || translations.en[key] || "";
+  });
+
+  languageLabel.textContent = dictionary.toggleLabel;
+  languageToggle.dataset.language = language;
+  localStorage.setItem("preferredLanguage", language);
+}
+
+year.textContent = new Date().getFullYear();
+
+languageToggle.addEventListener("click", () => {
+  const nextLanguage = languageToggle.dataset.language === "zh" ? "en" : "zh";
+  setLanguage(nextLanguage);
+});
+
+setLanguage(initialLanguage);
