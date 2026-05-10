@@ -262,6 +262,10 @@ time {
   color: var(--muted);
 }
 
+.publication-more {
+  margin-top: 14px;
+}
+
 .timeline strong {
   display: block;
   margin-bottom: 3px;

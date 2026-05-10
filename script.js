@@ -28,10 +28,6 @@ const translations = {
     projectTwoBody:
       "A second selected work entry. Keep it short and concrete so the page reads like a curated profile rather than a long resume.",
     publicationsTitle: "Publications",
-    publicationOne:
-      "<strong>Paper Title About Useful Systems.</strong> Ruying Liu, Collaborator Name. Conference or Journal, 2026.",
-    publicationTwo:
-      "<strong>Another Research Project or Technical Report.</strong> Ruying Liu. Workshop or Preprint, 2025.",
     awardsTitle: "Awards",
     awardOne: "Selected award, fellowship, grant, or competition result.",
     awardTwo: "Another recognition or scholarship.",
@@ -49,6 +45,7 @@ const translations = {
     linkNotes: "Notes",
     linkPaper: "Paper",
     linkProject: "Project",
+    moreScholar: "More on Google Scholar",
     builtWith: "Personal academic profile",
     toggleLabel: "中文",
     documentTitle: "Ruying Liu",
@@ -82,10 +79,6 @@ const translations = {
     projectTwoBody:
       "第二个代表性工作条目。保持简短具体，让页面更像精选主页，而不是冗长的履历。",
     publicationsTitle: "论文",
-    publicationOne:
-      "<strong>关于实用系统的论文标题。</strong> 刘汝盈，合作者姓名。会议或期刊，2026。",
-    publicationTwo:
-      "<strong>另一个研究项目或技术报告。</strong> 刘汝盈。研讨会或预印本，2025。",
     awardsTitle: "荣誉",
     awardOne: "代表性奖项、奖学金、资助或竞赛结果。",
     awardTwo: "另一项认可、荣誉或奖学金。",
@@ -103,6 +96,7 @@ const translations = {
     linkNotes: "笔记",
     linkPaper: "论文",
     linkProject: "项目",
+    moreScholar: "更多论文见谷歌学术",
     builtWith: "个人学术主页",
     toggleLabel: "English",
     documentTitle: "刘汝盈",
