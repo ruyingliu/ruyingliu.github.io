@@ -17,9 +17,8 @@ const translations = {
     aboutBodyTwo:
       "This page is intentionally compact, CV-like, and easy to maintain as a personal website. Replace the placeholders with your biography, research interests, recent news, and selected work.",
     newsTitle: "News",
-    newsOne: "Launched this personal academic profile.",
-    newsTwo: "Started a new project on AI-assisted software workflows.",
-    newsThree: "Shared notes on building maintainable internal tools.",
+    newsOne:
+      "I am excited to share that I am joining Tianjin University as a full professor! I am actively recruiting students to join my research group.",
     projectsTitle: "Projects",
     projectOneTitle: "Project One",
     projectOneBody:
@@ -83,9 +82,8 @@ const translations = {
     aboutBodyTwo:
       "这个页面保持紧凑、清晰，接近学术个人主页和简历的风格，也便于作为个人网站维护。你可以把这里的占位文字替换成个人简介、研究兴趣、近期动态和代表性工作。",
     newsTitle: "动态",
-    newsOne: "上线了这个个人学术主页。",
-    newsTwo: "开始了一个关于 AI 辅助软件工作流的新项目。",
-    newsThree: "整理并分享了关于可维护内部工具的笔记。",
+    newsOne:
+      "很高兴分享我将以正教授身份加入天津大学！我正在积极招收学生加入我的研究团队。",
     projectsTitle: "项目",
     projectOneTitle: "项目一",
     projectOneBody:
