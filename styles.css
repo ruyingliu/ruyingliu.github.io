@@ -221,6 +221,10 @@ time {
   align-items: start;
 }
 
+.media-item.has-video {
+  grid-template-columns: minmax(260px, 320px) minmax(0, 1fr);
+}
+
 .thumb {
   display: grid;
   width: 150px;
@@ -237,6 +241,24 @@ time {
   border-color: #ead2a3;
   background: var(--soft-gold);
   color: #8a5d10;
+}
+
+.video-thumb {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: #111111;
+  aspect-ratio: 16 / 9;
+}
+
+.video-thumb iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 
 .media-item p,
