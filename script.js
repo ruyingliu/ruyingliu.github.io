@@ -3,7 +3,7 @@ const translations = {
     siteTitle: "Ruying Liu",
     name: "Ruying Liu",
     navHome: "Home",
-    navProjects: "Projects",
+    navProjects: "Selected Project",
     navPublications: "Publications",
     navAwards: "Awards",
     navExperience: "Experience",
@@ -17,10 +17,10 @@ const translations = {
     newsTitle: "News",
     newsOne:
       "I am excited to share that I am joining Tianjin University as a full professor! I am actively recruiting students to join my research group.",
-    projectsTitle: "Projects",
-    projectOneTitle: "Project One",
+    projectsTitle: "Selected Project",
+    projectOneTitle: "VR Training for Active Shooter Preparedness",
     projectOneBody:
-      "A concise description of a project, demo, or research prototype. Mention the problem, your contribution, and the stack or method.",
+      "An immersive VR training platform that places healthcare workers inside realistic active-shooter scenarios in a virtual hospital environment. The project uses interactive simulation to study behavior, strengthen preparedness, and provide feedback for safer emergency decision-making.",
     projectTwoTitle: "Project Two",
     projectTwoBody:
       "A second selected work entry. Keep it short and concrete so the page reads like a curated profile rather than a long resume.",
@@ -52,11 +52,6 @@ const translations = {
       "Structural Engineering, Mechanics, and Materials (SEMM)",
     educationEdinburghTitle:
       "B.Eng. in Civil Engineering, First Class Honours, The University of Edinburgh",
-    linkCode: "Code",
-    linkDemo: "Demo",
-    linkNotes: "Notes",
-    linkPaper: "Paper",
-    linkProject: "Project",
     moreScholar: "More on Google Scholar",
     builtWith: "Personal academic profile",
     toggleLabel: "中文",
@@ -66,7 +61,7 @@ const translations = {
     siteTitle: "刘汝盈",
     name: "刘汝盈",
     navHome: "首页",
-    navProjects: "项目",
+    navProjects: "代表性项目",
     navPublications: "论文",
     navAwards: "荣誉",
     navExperience: "经历",
@@ -80,10 +75,10 @@ const translations = {
     newsTitle: "动态",
     newsOne:
       "很高兴分享我加入了天津大学！我正在积极招收学生加入我的研究团队。",
-    projectsTitle: "项目",
-    projectOneTitle: "项目一",
+    projectsTitle: "代表性项目",
+    projectOneTitle: "主动枪击事件应急准备虚拟现实训练平台",
     projectOneBody:
-      "用简洁的文字介绍一个项目、演示或研究原型。可以说明问题背景、你的贡献，以及使用的技术栈或方法。",
+      "一个面向医疗机构工作人员的沉浸式虚拟现实训练平台，将受训者置于真实感较强的虚拟医院主动枪击事件场景中。该项目通过交互式仿真研究人员行为、提升应急准备能力，并为更安全的应急决策提供反馈。",
     projectTwoTitle: "项目二",
     projectTwoBody:
       "第二个代表性工作条目。保持简短具体，让页面更像精选主页，而不是冗长的履历。",
@@ -110,11 +105,6 @@ const translations = {
     educationBerkeleyBody:
       "Structural Engineering, Mechanics, and Materials (SEMM)",
     educationEdinburghTitle: "土木工程，一等荣誉学士，爱丁堡大学",
-    linkCode: "代码",
-    linkDemo: "演示",
-    linkNotes: "笔记",
-    linkPaper: "论文",
-    linkProject: "项目",
     moreScholar: "更多论文见谷歌学术",
     builtWith: "个人学术主页",
     toggleLabel: "English",
