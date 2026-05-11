@@ -29,6 +29,19 @@ const translations = {
       "A second selected work entry. Keep it short and concrete so the page reads like a curated profile rather than a long resume.",
     publicationsTitle: "Publications",
     awardsTitle: "Awards",
+    awardBestDissertation:
+      "Best Dissertation Award Nominee, Viterbi School of Engineering, University of Southern California.",
+    awardResearchLeadership:
+      "Viterbi Research Leadership and Mentor Award, University of Southern California.",
+    awardWise:
+      "Women in Science and Engineering Merit Award (WiSE Merit Award), University of Southern California.",
+    awardResearchAssistant:
+      "Outstanding Research Assistant Award, University of Southern California.",
+    awardApple:
+      "Apple Scholars in AI/ML 2023 PhD Fellowship Nominee, Apple Inc.; nominated by University of Southern California.",
+    awardRisingStar:
+      "Rising Star in Civil and Environmental Engineering, Carnegie Mellon University.",
+    awardCharlesInnes: "Charles Innes Prize, University of Edinburgh.",
     experienceTitle: "Experience",
     experienceOneTitle: "Role Title, Organization",
     experienceOneBody: "One sentence about your focus, team, or contribution.",
@@ -78,6 +91,19 @@ const translations = {
       "第二个代表性工作条目。保持简短具体，让页面更像精选主页，而不是冗长的履历。",
     publicationsTitle: "论文",
     awardsTitle: "荣誉",
+    awardBestDissertation:
+      "Viterbi 工程学院最佳博士论文奖提名 (Best Dissertation Award Nominee)，南加州大学。",
+    awardResearchLeadership:
+      "科研领导力与导师奖 (Viterbi Research Leadership and Mentor Award)，南加州大学。",
+    awardWise:
+      "Women in Science and Engineering 杰出贡献奖 (WiSE Merit Award)，南加州大学。",
+    awardResearchAssistant:
+      "杰出研究助理奖 (Outstanding Research Assistant Award)，南加州大学。",
+    awardApple:
+      "美国苹果公司人工智能与机器学习博士奖学金提名 (Apple Scholars in AI/ML 2023 PhD Fellowship Nominee)，Apple Inc.；提名单位：南加州大学。",
+    awardRisingStar:
+      "土木与环境工程领域新星奖 (Rising Star in Civil and Environmental Engineering)，卡耐基梅隆大学。",
+    awardCharlesInnes: "最佳毕业生奖 (Charles Innes Prize)，爱丁堡大学。",
     experienceTitle: "经历",
     experienceOneTitle: "职位名称，组织机构",
     experienceOneBody: "用一句话概括你的方向、团队或贡献。",
