@@ -4,7 +4,7 @@ const translations = {
     name: "Ruying Liu",
     navHome: "Home",
     navProjects: "Selected Project",
-    navPublications: "Publications",
+    navPublications: "Selected Publications",
     navAwards: "Awards",
     navExperience: "Experience",
     role: "Professor",
@@ -24,7 +24,7 @@ const translations = {
     projectTwoTitle: "Project Two",
     projectTwoBody:
       "A second selected work entry. Keep it short and concrete so the page reads like a curated profile rather than a long resume.",
-    publicationsTitle: "Publications",
+    publicationsTitle: "Selected Publications",
     awardsTitle: "Awards",
     awardResearchLeadership:
       "Viterbi Research Leadership and Mentor Award, University of Southern California.",
@@ -62,7 +62,7 @@ const translations = {
     name: "刘汝盈",
     navHome: "首页",
     navProjects: "代表性项目",
-    navPublications: "论文",
+    navPublications: "代表性论文",
     navAwards: "荣誉",
     navExperience: "经历",
     role: "教授",
@@ -82,7 +82,7 @@ const translations = {
     projectTwoTitle: "项目二",
     projectTwoBody:
       "第二个代表性工作条目。保持简短具体，让页面更像精选主页，而不是冗长的履历。",
-    publicationsTitle: "论文",
+    publicationsTitle: "代表性论文",
     awardsTitle: "荣誉",
     awardResearchLeadership:
       "科研领导力与导师奖 (Viterbi Research Leadership and Mentor Award)，南加州大学。",
