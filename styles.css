@@ -281,6 +281,11 @@ time {
   object-fit: cover;
 }
 
+.project-figure.contained img {
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+}
+
 .media-item p,
 .publication-list p,
 .timeline span {
