@@ -103,7 +103,7 @@ const translations = {
       "土木与环境工程领域新星奖 (Rising Star in Civil and Environmental Engineering)，卡耐基梅隆大学。",
     awardCharlesInnes: "最佳毕业生奖 (Charles Innes Prize)，爱丁堡大学。",
     experienceTitle: "经历",
-    experienceTjuTitle: "正教授，天津大学",
+    experienceTjuTitle: "菁英教授，天津大学",
     experienceUscPostdocTitle: "博士后，南加州大学",
     experienceRutherfordTitle: "结构工程师，Rutherford + Chekene",
     experienceIdaTitle: "结构工程师，IDA Structural Engineers",
