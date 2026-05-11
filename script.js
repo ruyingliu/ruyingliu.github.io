@@ -43,10 +43,11 @@ const translations = {
       "Rising Star in Civil and Environmental Engineering, Carnegie Mellon University.",
     awardCharlesInnes: "Charles Innes Prize, University of Edinburgh.",
     experienceTitle: "Experience",
-    experienceOneTitle: "Role Title, Organization",
-    experienceOneBody: "One sentence about your focus, team, or contribution.",
-    experienceTwoTitle: "Previous Role, Organization",
-    experienceTwoBody: "Briefly summarize the most relevant work.",
+    experienceTjuTitle: "Assistant Professor, Tianjin University",
+    experienceUscPostdocTitle:
+      "Postdoctoral Researcher, University of Southern California",
+    experienceRutherfordTitle: "Structural Engineer, Rutherford + Chekene",
+    experienceIdaTitle: "Structural Engineer, IDA Structural Engineers",
     educationTitle: "Education",
     educationPhdTitle:
       "Ph.D. in Civil Engineering, University of Southern California",
@@ -54,7 +55,8 @@ const translations = {
       "M.S. in Computer Science, University of Southern California",
     educationBerkeleyTitle:
       "M.S. in Civil Engineering, University of California, Berkeley",
-    educationBerkeleyBody: "Structural Engineering",
+    educationBerkeleyBody:
+      "Structural Engineering, Mechanics, and Materials (SEMM)",
     educationEdinburghTitle:
       "B.Eng. in Civil Engineering, First Class Honours, The University of Edinburgh",
     linkCode: "Code",
@@ -111,15 +113,16 @@ const translations = {
       "土木与环境工程领域新星奖 (Rising Star in Civil and Environmental Engineering)，卡耐基梅隆大学。",
     awardCharlesInnes: "最佳毕业生奖 (Charles Innes Prize)，爱丁堡大学。",
     experienceTitle: "经历",
-    experienceOneTitle: "职位名称，组织机构",
-    experienceOneBody: "用一句话概括你的方向、团队或贡献。",
-    experienceTwoTitle: "过往职位，组织机构",
-    experienceTwoBody: "简要总结最相关的工作内容。",
+    experienceTjuTitle: "菁英教授，天津大学",
+    experienceUscPostdocTitle: "博士后，南加州大学",
+    experienceRutherfordTitle: "结构工程师，Rutherford + Chekene",
+    experienceIdaTitle: "结构工程师，IDA Structural Engineers",
     educationTitle: "教育背景",
     educationPhdTitle: "土木工程，博士，南加州大学",
     educationCsTitle: "计算机科学，硕士，南加州大学",
     educationBerkeleyTitle: "土木工程（结构工程），硕士，加州大学伯克利分校",
-    educationBerkeleyBody: "结构工程方向",
+    educationBerkeleyBody:
+      "Structural Engineering, Mechanics, and Materials (SEMM)",
     educationEdinburghTitle: "土木工程，一等荣誉学士，爱丁堡大学",
     linkCode: "代码",
     linkDemo: "演示",
