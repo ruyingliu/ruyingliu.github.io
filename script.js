@@ -13,9 +13,7 @@ const translations = {
     linkScholar: "Google Scholar",
     aboutTitle: "About",
     aboutBodyOne:
-      "I am a researcher and developer interested in building reliable, human-centered systems. My work focuses on AI-assisted workflows, developer tools, data-rich applications, and practical interfaces that make complex systems easier to understand.",
-    aboutBodyTwo:
-      "This page is intentionally compact, CV-like, and easy to maintain as a personal website. Replace the placeholders with your biography, research interests, recent news, and selected work.",
+      "I am a Professor in Civil Engineering at Tianjin University. My research focuses on human-building interaction, infrastructure resilience, and AI-driven modeling of the built environment. I develop computational, immersive, and data-driven methods, including digital twins, virtual reality, large language model agents, and multimodal sensing, to support disaster response, safety, and intelligent decision-making.",
     newsTitle: "News",
     newsOne:
       "I am excited to share that I am joining Tianjin University as a full professor! I am actively recruiting students to join my research group.",
@@ -78,9 +76,7 @@ const translations = {
     linkScholar: "谷歌学术",
     aboutTitle: "关于我",
     aboutBodyOne:
-      "我是一名关注可靠、人本系统的研究者与开发者。我的工作兴趣包括 AI 辅助工作流、开发者工具、数据密集型应用，以及帮助人们理解复杂系统的实用界面。",
-    aboutBodyTwo:
-      "这个页面保持紧凑、清晰，接近学术个人主页和简历的风格，也便于作为个人网站维护。你可以把这里的占位文字替换成个人简介、研究兴趣、近期动态和代表性工作。",
+      "我是天津大学土木工程专业教授。我的研究聚焦于人-建筑交互、基础设施韧性以及建成环境的人工智能驱动建模。我开发计算、沉浸式和数据驱动方法，包括数字孪生、虚拟现实、大语言模型智能体和多模态感知，以支持灾害响应、安全和智能决策。",
     newsTitle: "动态",
     newsOne:
       "很高兴分享我加入了天津大学！我正在积极招收学生加入我的研究团队。",
