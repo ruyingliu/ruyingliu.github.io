@@ -225,6 +225,11 @@ time {
   grid-template-columns: minmax(260px, 320px) minmax(0, 1fr);
 }
 
+.project-media-stack {
+  display: grid;
+  gap: 10px;
+}
+
 .thumb {
   display: grid;
   width: 150px;
@@ -259,6 +264,21 @@ time {
   width: 100%;
   height: 100%;
   border: 0;
+}
+
+.project-figure {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: #f6f6f6;
+}
+
+.project-figure img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  object-fit: cover;
 }
 
 .media-item p,
