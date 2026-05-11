@@ -21,9 +21,9 @@ const translations = {
     projectOneTitle: "VR Training for Active Shooter Preparedness",
     projectOneBody:
       "A VR training platform that places healthcare workers inside realistic active-shooter scenarios in a virtual hospital environment. The project uses interactive simulation to study behavior, strengthen preparedness, and provide feedback for safer emergency decision-making.",
-    projectTwoTitle: "Project Two",
+    projectTwoTitle: "Reinforcement Learning for School Safety Design",
     projectTwoBody:
-      "A second selected work entry. Keep it short and concrete so the page reads like a curated profile rather than a long resume.",
+      "A reinforcement learning-based simulation framework for evaluating how school layouts and exit access influence safety during active-shooter incidents. The study uses generalized school prototypes to model adaptive threats and occupant movement, supporting evidence-based design decisions for safer learning environments.",
     publicationsTitle: "Selected Publications",
     awardsTitle: "Awards",
     awardResearchLeadership:
@@ -79,9 +79,9 @@ const translations = {
     projectOneTitle: "主动枪击事件应急准备虚拟现实训练平台",
     projectOneBody:
       "一个面向医疗机构工作人员的虚拟现实训练平台，将受训者置于真实感较强的虚拟医院主动枪击事件场景中。该项目通过交互式仿真研究人员行为、提升应急准备能力，并为更安全的应急决策提供反馈。",
-    projectTwoTitle: "项目二",
+    projectTwoTitle: "基于强化学习的校园安全设计评估",
     projectTwoBody:
-      "第二个代表性工作条目。保持简短具体，让页面更像精选主页，而不是冗长的履历。",
+      "一个基于强化学习的仿真框架，用于评估校园空间布局与出口可达性如何影响主动枪击事件中的安全表现。该研究使用典型学校原型建模自适应威胁与人员运动，为更安全的学习环境设计提供循证决策支持。",
     publicationsTitle: "代表性论文",
     awardsTitle: "荣誉",
     awardResearchLeadership:
